@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     evidence_threshold: int = 2
     celery_broker_url: str = "redis://localhost:6379/0"
     celery_result_backend: str = "redis://localhost:6379/0"
+    openai_api_key: str = ""
+    nlp_model_path: str = "backend/app/models"
 
     class Config:
         env_file = ".env"
