@@ -1,0 +1,11 @@
+node_modules/
+dist/
+cache/
+artifacts/
+typechain-types/
+.env
+__pycache__/
+*.pyc
+.venv/
+backend/.env
+*.egg-info/
